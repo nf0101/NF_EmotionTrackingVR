@@ -22,13 +22,13 @@ public class NFFaceExpressions : MonoBehaviour
     private static Dictionary<OVRFaceExpressions.FaceExpression, bool> expressionsList = new Dictionary<OVRFaceExpressions.FaceExpression, bool>();
     float weight;
     static OVRFaceExpressions.FaceExpression[] ExprArray = (OVRFaceExpressions.FaceExpression[])Enum.GetValues(typeof(OVRFaceExpressions.FaceExpression));
-    public GameObject cube;
+    //public GameObject cube;
     Renderer r;
     public TMP_Text text2;
-    public Text text3;
+    //public Text text3;
     void Start()
     {
-        r = cube.gameObject.GetComponent<Renderer>();
+        //r = cube.gameObject.GetComponent<Renderer>();
         foreach (OVRFaceExpressions.FaceExpression e in Enum.GetValues(typeof(OVRFaceExpressions.FaceExpression)))
         {
             expressionsList.Add(e, false);
