@@ -19,7 +19,7 @@ public class VRButtonsController : MonoBehaviour
     TestExpr testExpr;
     static bool isActive;
     public GameObject ResetButton;
-    string defaultString = "Prova a fare questa espressione: ";
+    string defaultString = "Try to make this expression: ";
     // Start is called before the first frame update
     void Start()
     {
@@ -78,44 +78,44 @@ public class VRButtonsController : MonoBehaviour
                 switch (transform.parent.name)
                 {
                     case "HappyButton":
-                        testExpr.expressionChoosedString = defaultString + "Felicità";
-                        testExpr.espressioneString = "Felicità";
+                        testExpr.expressionChoosedString = defaultString + "Happiness";
+                        testExpr.espressioneString = "Happiness";
                         testExpr.expressionChoosed = 1;    
                         break;
 
                     case "AngryButton":
-                        testExpr.expressionChoosedString = defaultString + "Rabbia";
-                        testExpr.espressioneString = "Rabbia";
+                        testExpr.expressionChoosedString = defaultString + "Anger";
+                        testExpr.espressioneString = "Anger";
                         testExpr.expressionChoosed = 5;
                         break;
 
                     case "SadButton":
-                        testExpr.expressionChoosedString = defaultString + "Tristezza";
-                        testExpr.espressioneString ="Tristezza";
+                        testExpr.expressionChoosedString = defaultString + "Sadness";
+                        testExpr.espressioneString ="Sadness";
                         testExpr.expressionChoosed = 3;
                         break;
 
                     case "ScareButton":
-                        testExpr.expressionChoosedString = defaultString + "Paura";
-                        testExpr.espressioneString = "Paura";
+                        testExpr.expressionChoosedString = defaultString + "Fear";
+                        testExpr.espressioneString = "Fear";
                         testExpr.expressionChoosed = 4;
                         break;
 
                     case "SurpriseButton":
-                        testExpr.expressionChoosedString = defaultString + "Sorpresa";
-                        testExpr.espressioneString = "Sorpresa";
+                        testExpr.expressionChoosedString = defaultString + "Surprise";
+                        testExpr.espressioneString = "Surprise";
                         testExpr.expressionChoosed = 2;
                         break;
 
                     case "DisgustButton":
-                        testExpr.expressionChoosedString = defaultString + "Disgusto";
-                        testExpr.espressioneString = "Disgusto";
+                        testExpr.expressionChoosedString = defaultString + "Disgust";
+                        testExpr.espressioneString = "Disgust";
                         testExpr.expressionChoosed = 6;
                         break;
 
                     case "ContemptButton":
-                        testExpr.expressionChoosedString = defaultString + "Disprezzo";
-                        testExpr.espressioneString = "Disprezzo";
+                        testExpr.expressionChoosedString = defaultString + "Contempt";
+                        testExpr.espressioneString = "Contempt";
                         testExpr.expressionChoosed = 7;
                         break;
 

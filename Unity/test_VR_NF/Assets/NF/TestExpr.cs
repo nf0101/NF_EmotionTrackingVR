@@ -97,7 +97,7 @@ public class TestExpr : MonoBehaviour
             listText.Add(text.GetComponent<TMP_Text>());
         }
 
-        expressionChoosedString = "Scegli un'espressione premendo uno dei pulsanti";
+        expressionChoosedString = "Choose an expression by pressing one of the buttons";
         espressione.text = expressionChoosedString;
         filePath = Application.persistentDataPath + "data.json";
         subjectList = new SoggettoList();
@@ -292,6 +292,7 @@ public class TestExpr : MonoBehaviour
                         faceExpressions.TryGetFaceExpressionWeight(DimplerR, out dimplerR);
                         faceExpressions.TryGetFaceExpressionWeight(UpperLipRaiserL, out uppLL);
                         faceExpressions.TryGetFaceExpressionWeight(UpperLipRaiserR, out uppLR);
+
                         if ((tempLipCL > 0.02 ^ tempLipCR > 0.02) && (dimplerL > 0.01 ^ dimplerR > 0.01) &&
                             (uppLL > 0.2 ^ uppLR > 0.2))
                         {
@@ -320,7 +321,7 @@ public class TestExpr : MonoBehaviour
                 {
                     timer = false;
                     timeElapsed = 0;
-                    expressionChoosedString = "Prova così:";
+                    expressionChoosedString = "Try like this:";
                     StartCoroutine(WaitImage(espressioneString));
                 }
                 
@@ -333,7 +334,7 @@ public class TestExpr : MonoBehaviour
             else
             {
                 expressionimage.enabled = false;
-                espressione.text = "Espressione corretta, ottimo lavoro!";
+                espressione.text = "Correct expression! Good job!";
                 timer = false;
             }
 

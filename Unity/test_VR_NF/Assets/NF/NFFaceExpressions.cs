@@ -63,46 +63,46 @@ public class NFFaceExpressions : MonoBehaviour
         }
         if (expressionsList[CheekRaiserL] && expressionsList[CheekRaiserL] && expressionsList[LipCornerPullerL] && expressionsList[LipCornerPullerR])
         {
-            result = "Felice/Gioia";
+            result = "Happiness";
         }
         else if (expressionsList[InnerBrowRaiserL] && expressionsList[InnerBrowRaiserR] && expressionsList[OuterBrowRaiserL] && expressionsList[OuterBrowRaiserR] && expressionsList[UpperLidRaiserL] &&
             expressionsList[UpperLidRaiserR] && expressionsList[JawDrop])
         {
-            result = "Sorpresa";
+            result = "Surprise";
         }
 
         else if (expressionsList[InnerBrowRaiserL] && expressionsList[InnerBrowRaiserR] && expressionsList[BrowLowererL] && expressionsList[BrowLowererR] && expressionsList[LipCornerDepressorL] &&
             expressionsList[LipCornerDepressorR])
         {
-            result = "Triste/Tristezza";
+            result = "Sadness";
         }
 
         else if (expressionsList[InnerBrowRaiserL] && expressionsList[InnerBrowRaiserR] && expressionsList[OuterBrowRaiserL] && expressionsList[OuterBrowRaiserR] && expressionsList[BrowLowererL]
             && expressionsList[BrowLowererR] && expressionsList[BrowLowererR] && expressionsList[UpperLidRaiserL] && expressionsList[UpperLidRaiserR] && expressionsList[LidTightenerL] &&
             expressionsList[LidTightenerR] && expressionsList[LipStretcherL] && expressionsList[LipStretcherR])
         {
-            result = "Paura";
+            result = "Fear";
         }
 
         else if (expressionsList[BrowLowererL] && expressionsList[BrowLowererR] && expressionsList[BrowLowererR] && expressionsList[UpperLidRaiserL] &&
             expressionsList[UpperLidRaiserR] && expressionsList[LidTightenerL] && expressionsList[LidTightenerR] && expressionsList[LipTightenerL] && expressionsList[LipTightenerR])
         {
-            result = "Rabbia";
+            result = "Anger";
         }
 
         else if (expressionsList[NoseWrinklerL] && expressionsList[NoseWrinklerR] && expressionsList[LipCornerDepressorL] && expressionsList[LipCornerDepressorR] &&
             expressionsList[LowerLipDepressorL] && expressionsList[LowerLipDepressorR])
         {
-            result = "Disgusto";
+            result = "Disgust";
         }
 
         else if ((expressionsList[LipCornerPullerL] || expressionsList[LipCornerPullerR]) && (expressionsList[OuterBrowRaiserL] || expressionsList[OuterBrowRaiserR]))
         {
-            result = "Disprezzo";
+            result = "Contempt";
         }
         else
         {
-            result = "Neutro";
+            result = "Neutral";
         }
     }
 }
