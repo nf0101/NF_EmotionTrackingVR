@@ -7,3 +7,14 @@ NF_EmotionTrackingVR is a Unity application that can recognize seven facial expr
 &ensp;&ensp;&ensp;test_VR_NF: the unity project folder</br>
 &ensp;&ensp;&ensp;TODO inserire unitypackage: the unitypackage file to import the project</br>
 &ensp;&ensp;&ensp;TODO inserire file json: a json sample file of facial tracking data extracted during experimentation</br>
+
+<h1>Requirements and installation for the Unity project</h1>
+<b>Unity game engine</b>, preferably 2022.3.2f1.</br>
+<a href="https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/"><b>Oculus desktop app</b></a>, follow steps in this page.</br>
+<b>Meta Quest mobile app</b></br>
+<a href="https://developer.oculus.com/downloads/package/oculus-developer-hub-win"><b>Meta Quest Develoepr App</b></a></br>
+Create a Meta account e a Meta Oculus Developer account</br>
+Activate developer mode both in mobile app and VR visor</br>
+
+
+
