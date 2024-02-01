@@ -9,12 +9,37 @@ NF_EmotionTrackingVR is a Unity application that can recognize seven facial expr
 &ensp;&ensp;&ensp;TODO inserire file json: a json sample file of facial tracking data extracted during experimentation</br>
 
 <h1>Requirements and installation for the Unity project</h1>
-<b>Unity game engine</b>, preferably 2022.3.2f1.</br>
-<a href="https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/"><b>Oculus desktop app</b></a>, follow steps in this page.</br>
-<b>Meta Quest mobile app</b></br>
-<a href="https://developer.oculus.com/downloads/package/oculus-developer-hub-win"><b>Meta Quest Develoepr App</b></a></br>
-Create a Meta account e a Meta Oculus Developer account</br>
-Activate developer mode both in mobile app and VR visor</br>
+
+* <b>Unity game engine</b>, preferably 2022.3.2f1.</br>
+
+* <a href="https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/"><b>Oculus desktop app</b></a>, follow steps in this page.</br>
+
+* <b>Download Meta Quest mobile app</b></br>
+
+* <a href="https://developer.oculus.com/downloads/package/oculus-developer-hub-win"><b>Meta Quest Developer App</b></a></br>
+
+* Create a Meta account and a Meta Oculus Developer account</br>
+
+* Activate developer mode both in mobile app and VR visor</br>
+
+* <b>Follow steps in this <a href="https://developer.oculus.com/documentation/unity/unity-tutorial-hello-vr/">page</a></b>, then in Build Settings > Android > Texture Compression, set ASTC</br>
+
+* Make sure that you activated face and hands tracking in VR visor settings
+
+* Download the unitypackage from this repository and import it in the project you created in previous step and start you experiments!
+
+
+<h1>Installation for standalone apk</h1>
+
+* Make sure that you activated face and hands tracking in VR visor settings
+
+* Just load it in the VR visor and run it
+
+
+
+
+
+
 
 
 
