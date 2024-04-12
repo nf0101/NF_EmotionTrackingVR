@@ -25,7 +25,9 @@ NF_EmotionTrackingVR is a Unity application that can recognize seven facial expr
 
 * Make sure that you activated face and hands tracking in VR visor settings
 
-* Download the unitypackage from this repository and import it in the project you created in previous step and start you experiments!
+* Download the unitypackage from this repository and import it in the project you created in previous step
+
+* Start you experiments!
 
 
 <h1>Installation for standalone apk</h1>
