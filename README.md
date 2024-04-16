@@ -24,6 +24,8 @@ NF_EmotionTrackingVR is a Unity application that can recognize seven facial expr
 
 * <b>Follow steps in this <a href="https://developer.oculus.com/documentation/unity/unity-tutorial-hello-vr/">page</a></b>, then in Build Settings > Android > Texture Compression, set ASTC</br>
 
+* <b>Enable URP by following steps in this <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@17.0/manual/InstallURPIntoAProject.html">page</a></b>
+
 * Make sure that you activated face and hands tracking in VR visor settings
 
 * Download the unitypackage from this repository and import it in the project you created in previous step
