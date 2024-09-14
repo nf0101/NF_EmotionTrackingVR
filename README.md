@@ -39,7 +39,9 @@ NF_EmotionTrackingVR is a Unity application that can recognize seven facial expr
 
 * Just load the apk file in the VR visor and run it
 
-
+<h1>Virtual environment interaction</h1>
+To start the interaction, choose an expression to imitate, by pressing a button you see right in front of you. Use the palm of the hand to press the button. Then, try to imitate the expression. If you do it correctly, you will see a new environment.
+When the expression is replicated correctly, the system will save all your micro-expression on a file. If you are using the apk version, this file is located to /storage/emulated/<userid>/Android/data/test_VR_NF/files/data.json. If you are using Unity version, it's located to C:/Users/user/AppData/LocalLow/DefaultCompany/Tesidata.json
 
 
 
