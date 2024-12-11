@@ -36,7 +36,7 @@ public class VRButtonsController : MonoBehaviour
     IEnumerator WaitAndLoadScene()
     {
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene("HappyScene2");
+        SceneManager.LoadScene("SampleScene");
     }
 
     IEnumerator WaitButton()

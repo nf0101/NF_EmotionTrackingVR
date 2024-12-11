@@ -39,6 +39,7 @@ public class TestExpr : MonoBehaviour
     public bool timer = false;
     public float timeElapsed = 0.0f;
     public RawImage expressionimage;
+    private int waitForImage = 1;
 
 
     private Dictionary<OVRFaceExpressions.FaceExpression, bool> expressionsList = new Dictionary<OVRFaceExpressions.FaceExpression, bool>();
@@ -78,7 +79,7 @@ public class TestExpr : MonoBehaviour
 
     IEnumerator WaitImage(string expr)
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
         expressionimage.enabled = true;
         Texture2D tex = Resources.Load<Texture2D>(expr);
         expressionimage.texture = tex;
@@ -314,11 +315,11 @@ public class TestExpr : MonoBehaviour
                 {
                     timeElapsed += Time.deltaTime;
                 }
-                if (((int)(timeElapsed / 60)) > 14)
+                if (((int)(timeElapsed / 60)) > waitForImage)
                 {
                     timer = false;
                     timeElapsed = 0;
-                    expressionChoosedString = "Try like this:";
+                    //expressionChoosedString = "Try like this:";
                     StartCoroutine(WaitImage(espressioneString));
                 }
                 
