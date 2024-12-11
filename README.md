@@ -5,7 +5,7 @@ NF_EmotionTrackingVR is a Unity application that can recognize seven facial expr
 <h1>Repository content</h1>
 <b>Unity folder</b></br>
 &ensp;&ensp;&ensp;test_VR_NF: the unity project folder</br>
-&ensp;&ensp;&ensp;TODO inserire unitypackage: the unitypackage file to import the project</br>
+&ensp;&ensp;&ensp;NF_EmotionTrackingVR_1.0.0.unitypackage: the unity package</br>
 &ensp;&ensp;&ensp;TODO inserire file json: a json sample file of facial tracking data extracted during experimentation</br>
 
 <h1>Requirements and installation for the Unity project</h1>
@@ -24,9 +24,13 @@ NF_EmotionTrackingVR is a Unity application that can recognize seven facial expr
 
 * <b>Follow steps in this <a href="https://developer.oculus.com/documentation/unity/unity-tutorial-hello-vr/">page</a></b>, then in Build Settings > Android > Texture Compression, set ASTC</br>
 
+* <b>Enable URP by following steps in this <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@17.0/manual/InstallURPIntoAProject.html">page</a></b>
+
 * Make sure that you activated face and hands tracking in VR visor settings
 
-* Download the unitypackage from this repository and import it in the project you created in previous step and start you experiments!
+* Download the unitypackage from this repository and import it in the project you created in previous step
+
+* Start you experiments!
 
 
 <h1>Installation for standalone apk</h1>
@@ -35,7 +39,9 @@ NF_EmotionTrackingVR is a Unity application that can recognize seven facial expr
 
 * Just load the apk file in the VR visor and run it
 
-
+<h1>Virtual environment interaction</h1>
+To start the interaction, choose an expression to imitate, by pressing a button you see right in front of you. Use the palm of the hand to press the button. Then, try to imitate the expression. If you do it correctly, you will see a new environment.
+When the expression is replicated correctly, the system will save all your micro-expression on a file. If you are using the apk version, this file is located to /storage/emulated/<userid>/Android/data/test_VR_NF/files/data.json. If you are using Unity version, it's located to C:/Users/user/AppData/LocalLow/DefaultCompany/Tesidata.json
 
 
 
